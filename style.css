@@ -1,0 +1,47 @@
+.groupe{
+    background-color: rgb(26, 117, 255);
+    height: 80px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    border-bottom: solid 1px gray;
+    box-shadow: 1px 1px;
+}
+
+
+.nav{
+    text-align: center;
+    background-color: rgb(26, 117, 255);
+    margin-top: -0px;
+    height: 70px;
+    padding-top: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.menu{
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    background-color: gray;
+    color: white;
+    height: 50px;
+    margin-top: -6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+li {
+    display: inline;
+    margin-left: 70px;
+    margin-right: 100px;
+}
+
+
+footer{
+    background-color:rgb(26, 117, 255);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 525px;
+}
