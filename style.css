@@ -14,20 +14,87 @@ body{
 header{
     height: 100vh;
 }
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+   min-height: 100vh;
+    background: #0c192c;
+}
+
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.bubbles{
+    position: relative;
+    display: flex;
+
+}
+
+
+.bubbles span{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #4fc3dc;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #4fc3dc, 0 0 100px #4fc3dc ;
+    animation: animate 15s linear infinite;
+    animation-duration:calc(125s / var(--i)) ;
+    z-index: -1;
+
+}
+
+
+.bubbles span:nth-child(even){
+    z-index: -1;
+    background: #4fdc6e;
+    box-shadow: 0 0 0 10px #4fdc7044, 0 0 50px #4fdc6e, 0 0 100px #4fdc6e;
+}  
+.bubbles span:nth-child(even){
+    z-index: -1;
+    background: #dc4fc9;
+    box-shadow: 0 0 0 10px #dc4fce44, 0 0 50px #dc4fc9, 0 0 100px #dc4fc9;
+}  
+@keyframes animate {
+    0% {
+        transform: translateY(100vh) scale(0);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1);
+    }
+}
+
+
 .groupe{
-    background-color: rgb(26, 117, 255);
+    background-color:#0c192c ;
+    
     height: 80px;
     color: white;
     text-align: center;
     padding-top: 15px;
-    border-bottom: solid 1px gray;
+    border-bottom: solid 1px white;
     box-shadow: 1px 1px;
+    margin-top: -30px;
 }
 
 
 .nav{
     text-align: center;
-    background-color: rgb(26, 117, 255);
+    background-color:#0c192c;
+    color: white;
     margin-top: -0px;
     height: 70px;
     padding-top: 3px;
@@ -39,10 +106,10 @@ header{
     border: none;
     border-radius: 10px;
     width: 100px;
-    background-color: gray;
+    background-color:#0c192c;
     color: white;
     height: 50px;
-    margin-top: -6px;
+    margin-top: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -51,6 +118,7 @@ li {
     display: inline;
     margin-left: 70px;
     margin-right: 100px;
+    
 }
 
 

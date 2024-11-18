@@ -1,0 +1,17 @@
+## ici ce sont nos fichiers non a importe dans github
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+
+# production
+/build
+
+# local env files
+.env*.local
+
+
+# typescript pour ceux qui vont coder en typeScript dans leur projet
+*.tsbuildinfo
+next-env.d.ts
