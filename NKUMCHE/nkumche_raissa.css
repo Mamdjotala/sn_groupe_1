@@ -1,0 +1,42 @@
+.header{
+    background-color: dodgerblue;
+    height: 85px;
+    margin: 10px;
+    text-align: center;
+    line-height: 2.5;
+    color: white;
+    font-size: 17px;
+}
+ .b1{
+    background-color: rgb(175, 168, 168);
+    text-align: center;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+ }
+ footer{
+    display: block;
+    unicode-bidi: isolate;
+    text-align: center;
+    padding: 10px;
+    margin-top: 525px;
+    
+ }
+
+ .b2{
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    background-color: gray;
+    color: white;
+    height: 60px;
+    margin-top: -6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 70px;
+    margin-right: 100px;
+    
+ }
