@@ -1,5 +1,5 @@
 .header{
-    background-color: dodgerblue;
+    background-color: #0c192c;
     height: 85px;
     margin: 10px;
     text-align: center;
@@ -44,7 +44,7 @@
 
  /* Navbar */
 nav {
-   background-color: #2968db;
+   background-color: #0c192c;
 }
 
 
@@ -60,7 +60,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-   background-color: #1d50db;
+   background-color: #0c192c;
 }
 
  main {
