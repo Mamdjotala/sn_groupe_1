@@ -17,12 +17,12 @@ Un footer contenant le copyright du groupe.
 2. Pages secondaires
 Chaque membre du groupe crée une page HTML individuelle, qui porte son prénom ou son nom comme nom de fichier. Par exemple :
 
-mamdjo_ariel.html
-bamela_adrien.html
-orland_ngandeu.html
-mkumtche_raissa.html
-aicha.html
-mbongue.html
+### mamdjo_ariel.html
+### bamela_adrien.html
+### orland_ngandeu.html
+### mkumtche_raissa.html
+### aicha.html
+### mbongue.html
 
 Ces pages incluent :
 
